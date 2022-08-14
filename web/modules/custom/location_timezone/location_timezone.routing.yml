@@ -1,0 +1,7 @@
+location_timezone.settings:
+  path: '/admin/config/services/location-timezone-settings'
+  defaults:
+    _title: 'Location Timezone Settings'
+    _form: 'Drupal\location_timezone\Form\LocationTimezoneSettingsForm'
+  requirements:
+    _permission: 'administer'

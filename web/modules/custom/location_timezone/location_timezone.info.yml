@@ -1,0 +1,7 @@
+name: Location Timezone
+type: module
+description: 'Functionality to get the current timezone for specific location'
+package: Custom
+version: 1.0
+core_version_requirement: ^8 || ^9
+configure: location_timezone.location_timezone_settings

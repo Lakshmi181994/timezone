@@ -1,0 +1,17 @@
+<?php
+
+/**
+ * @file
+ */
+
+//hook_theme 
+
+function location_timezone_theme(){
+    return [
+        'location_timezone' => [
+            'variables' => [
+                'timezone_data' => []
+            ],
+        ],
+    ];
+}

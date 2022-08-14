@@ -1,0 +1,4 @@
+services:
+  location_timezone.details:
+    class: Drupal\location_timezone\Services\LocationTimezone
+    arguments: []
