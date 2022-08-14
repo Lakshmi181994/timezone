@@ -1,0 +1,9 @@
+name: Timezone
+type: module
+description: 'Functionality to get the current timezone'
+package: Custom
+version: 1.0
+core: 8.x
+core_version_requirement: ^8 || ^9
+
+configure: timezone.timezone_settings
